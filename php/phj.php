@@ -36,6 +36,7 @@ class PHJ
 	public $lang;		/*it*/
 	public $root;		/*document root*/
 	public $source;		/*.PHJ*/
+        public $version;
 
 	public function __construct($title,$lang,$root,$source)
 	{
@@ -43,6 +44,7 @@ class PHJ
 		$this->lang=$lang;
 		$this->root=$root;
 		$this->source=$source;
+		$this->version=1.4;
 	}
 
 	public function fill()
